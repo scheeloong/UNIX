@@ -1,0 +1,5 @@
+#
+# trace02.txt - Process builtin quit command.
+#
+/bin/echo -e tsh\076 quit
+quit
