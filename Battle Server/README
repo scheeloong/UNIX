@@ -1,0 +1,35 @@
+To run the file, execute: 
+>> make clean
+>> make 
+>> ./battleserver
+
+Open a new terminal 
+>> telnet localhost 30305
+>> AnyNameOne
+
+Open a new terminal
+>> telnet localhost 30305 
+>> AnyNameTwo
+
+
+Use both terminals above to battle. 
+Commands are: 
+a => Normal attack
+p => Power up attack (have limits to number of uses)
+y => Allows you to send a message after and not miss a turn 
+
+e.g. 
+Client1: 
+>> y
+>> I win!
+>> a
+Client2:
+>> p 
+Client1: 
+>> a
+Continue battling till a client loses 
+
+Note: You can keep repeating the command above to allow as many clients to battle each other as possible. 
+ 30305
+
+
